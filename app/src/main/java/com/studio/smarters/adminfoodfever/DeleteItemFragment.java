@@ -168,7 +168,7 @@ public class DeleteItemFragment extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 final List<String> items = new ArrayList<String>();
                 for (DataSnapshot itemSnapshot: dataSnapshot.getChildren()) {
-                    String itemname = itemSnapshot.getKey().toString();;
+                    String itemname = itemSnapshot.getKey().toString();
                     items.add(itemname);
                 }
                 ArrayAdapter<String> areasAdapter = new ArrayAdapter<String>(main, android.R.layout.simple_spinner_item, items);
@@ -194,7 +194,7 @@ public class DeleteItemFragment extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 final List<String> items = new ArrayList<String>();
                 for (DataSnapshot itemSnapshot: dataSnapshot.getChildren()) {
-                    String itemname = itemSnapshot.getKey().toString();;
+                    String itemname = itemSnapshot.getKey().toString();
                     items.add(itemname);
                 }
                 ArrayAdapter<String> areasAdapter = new ArrayAdapter<String>(main, android.R.layout.simple_spinner_item, items);
