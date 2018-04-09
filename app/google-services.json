@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "647032505402",
+    "firebase_url": "https://foodfever-d2d76.firebaseio.com",
+    "project_id": "foodfever-d2d76",
+    "storage_bucket": "foodfever-d2d76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647032505402:android:5f746d1297b91cac",
+        "android_client_info": {
+          "package_name": "com.example.daduc.ffinput"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647032505402-hqg1tpcu0oj7snsp0e5e4qpaurlj86qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daduc.ffinput",
+            "certificate_hash": "0a0a24921c5f55a18cd40b33d7d4043249d794be"
+          }
+        },
+        {
+          "client_id": "647032505402-svboh86pcsijs29njpppvvb8pl07rjln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8d0KOD1ldEh_wuYSiKds0a1bcocT6z68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647032505402-svboh86pcsijs29njpppvvb8pl07rjln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647032505402:android:581d71285aa87412",
+        "android_client_info": {
+          "package_name": "com.studio.smarters.adminfoodfever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647032505402-7jrugm10u5jvuum3f7dsf457tpqf6bta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studio.smarters.adminfoodfever",
+            "certificate_hash": "16487b3f46c1ade441375754e70263285a0b56f4"
+          }
+        },
+        {
+          "client_id": "647032505402-svboh86pcsijs29njpppvvb8pl07rjln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8d0KOD1ldEh_wuYSiKds0a1bcocT6z68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647032505402-svboh86pcsijs29njpppvvb8pl07rjln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647032505402:android:41c0adb5dffb1e95",
+        "android_client_info": {
+          "package_name": "com.studio.smarters.foodfever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647032505402-0aa1e6sb0gt609nhsdi3c5qtu4dt18s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studio.smarters.foodfever",
+            "certificate_hash": "0a0a24921c5f55a18cd40b33d7d4043249d794be"
+          }
+        },
+        {
+          "client_id": "647032505402-svboh86pcsijs29njpppvvb8pl07rjln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8d0KOD1ldEh_wuYSiKds0a1bcocT6z68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647032505402-svboh86pcsijs29njpppvvb8pl07rjln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

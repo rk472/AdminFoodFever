@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AdminFoodFever</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="menu">
+        <item>starter</item>
+        <item>main course</item>
+        <item>others</item>
+        <item>chinese</item>
+        <item>dessert</item>
+    </string-array>
+    <string-array name="starter">
+        <item>veg</item>
+        <item>seafood</item>
+        <item>tandoori</item>
+        <item>non veg</item>
+        <item>salad</item>
+    </string-array>
+    <string-array name="main_course">
+        <item>non veg</item>
+        <item>sea food</item>
+        <item>veg(chinese)</item>
+        <item>Indian</item>
+        <item>tandoori</item>
+    </string-array>
+    <string-array name="others">
+        <item>murg bahar</item>
+        <item>fish khajan</item>
+        <item>rasila ghost</item>
+        <item>prawn</item>
+        <item>rice</item>
+        <item>dal</item>
+        <item>roti-naan</item>
+    </string-array>
+    <string-array name="chinese">
+        <item>soup</item>
+        <item>noodles</item>
+        <item>rice</item>
+    </string-array>
+</resources>

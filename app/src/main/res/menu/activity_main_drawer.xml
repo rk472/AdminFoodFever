@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_gr_order">
+        <item
+            android:id="@+id/nav_pending_order"
+            android:icon="@drawable/nav_pending"
+            android:title="Pending Orders" />
+        <item
+            android:id="@+id/nav_ready_order"
+            android:icon="@drawable/nav_ready"
+            android:title="Ready Orders" />
+        <item
+            android:id="@+id/nav_order_history"
+            android:icon="@drawable/nav_history"
+            android:title="Order History" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_gr_items">
+        <item
+            android:id="@+id/nav_add_item"
+            android:icon="@drawable/nav_add_item"
+            android:title="Add a New Item" />
+        <item
+            android:id="@+id/nav_delete_item"
+            android:icon="@drawable/nav_delete_item"
+            android:title="Delete an Item" />
+        <item
+            android:id="@+id/nav_change_availability"
+            android:icon="@drawable/nav_available"
+            android:title="Change Availability" />
+    </group>
+
+</menu>
