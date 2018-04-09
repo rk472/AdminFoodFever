@@ -3,5 +3,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.studio.smarters.adminfoodfever.AvailabilityFragment">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/shape_back"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+            <Spinner
+                android:id="@+id/menu_available"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:entries="@array/menu"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:id="@+id/sub_menu_holder_available"
+            android:background="@drawable/shape_back"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+            <Spinner
+                android:id="@+id/sub_menu_available"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/shape_back"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+            <Spinner
+                android:id="@+id/item_available"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/shape_back"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/unavailable_text"
+                android:textSize="20dp"
+                android:visibility="gone"
+                android:textColor="@color/colorAccent"
+                android:text="Item is currently Unavailable. "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/available_text"
+                android:textSize="20dp"
+                android:textColor="@color/colorGreen"
+                android:text="Item is currently Available. "/>
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/shape_back"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <Button
+                android:id="@+id/button_unavailable"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:background="@drawable/shape_btn_available"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                android:text="Make Available" />
+            <Button
+                android:id="@+id/button_available"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:background="@drawable/shape_btn_back"
+                android:layout_height="50dp"
+                android:text="Make Unavailable" />
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>
