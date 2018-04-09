@@ -19,6 +19,7 @@ android {
 }
 
 dependencies {
+    compile 'com.firebaseui:firebase-ui-database:2.2.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
     implementation 'com.android.support:design:26.0.0-beta1'
